@@ -4,7 +4,7 @@ pacman -S nano neofetch make sudo git
 
 cd /opt
 
-sudo git clone https://aur.archlinux.org/yay-git
+git clone https://aur.archlinux.org/yay-git
 
 chown -R sarah:sarah ./yay-git
 
