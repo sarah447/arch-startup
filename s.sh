@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -S nano neofetch make sudo git gcc networkmanager
+pacman -S nano neofetch make sudo gcc networkmanager
 
 cd /opt
 
