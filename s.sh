@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -S nano neofetch make sudo git
+pacman -S nano neofetch make sudo git gcc networkmanager
 
 cd /opt
 
@@ -11,6 +11,11 @@ chown -R sarah:sarah ./yay-git
 cd yay-git
 
 makepkg -si
+
+cd ~/
+
+pacman -Syyu
+
 
 
 
